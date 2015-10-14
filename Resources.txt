@@ -5,3 +5,8 @@ https://en.wikipedia.org/wiki/Process_mining
 http://www.netmba.com/operations/
 http://www.promtools.org/doku.php
 http://www.jatit.org/volumes/research-papers/Vol9No1/9Vol9No1.pdf
+
+
+Process discovery is one of the three main types of process mining. The other two types of process mining are conformance checking and model extension/enhancement.[1] All of these techniques aim at extracting process related knowledge from event logs.
+
+Παρακάτω τα άλλα 2 του Process Mining (Conformance Checking και ο,τι βρω για το Model Extension/Enhancement - Επέκταση/Εμπλουτισμός Μοντέλου).
