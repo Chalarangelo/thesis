@@ -1,0 +1,86 @@
+Case ID,Timestamp (dd/MM/yy HH:mm),Activity,Resource
+1,26/09/15 09:06,register order,system
+1,26/09/15 09:34,check order,John
+1,26/09/15 09:34,check order complete,John
+1,26/09/15 09:34,check availability,John
+1,26/09/15 09:34,check availability complete,John
+1,26/09/15 09:35,gather items,John
+1,28/09/15 14:58,gather items complete,John
+1,28/09/15 15:17,price order,Mike
+1,28/09/15 15:18,price order complete,Mike
+1,28/09/15 15:18,order ready to send,system
+1,29/09/15 12:03,send order,Tom
+1,29/09/15 12:41,order delivered,Tom
+2,26/09/15 12:11,register order,system
+2,26/09/15 12:37,check order,Sara
+2,26/09/15 12:38,check order complete,Sara
+2,26/09/15 12:38,check availability,Sara
+2,26/09/15 12:40,check availability complete,Sara
+2,26/09/15 12:42,price order,Sara
+2,26/09/15 12:51,price order complete,Sara
+2,26/09/15 13:31,gather items,John
+2,27/09/15 19:37,gather items complete,John
+2,27/09/15 19:38,order ready to send,system
+2,28/09/15 10:12,send order,Bill
+2,28/09/15 12:09,order delivered,Bill
+3,27/09/15 10:33,register order,system
+3,27/09/15 11:22,check order,John
+3,27/09/15 11:23,check order complete, John
+3,27/09/15 11:24,check availability,John
+3,28/09/15 08:42,check availability complete,John
+3,28/09/15 08:48,gather items,John
+3,30/09/15 11:47,gather items complete,John
+3,30/09/15 18:59,price order,Mike
+3,30/09/15 19:22,price order complete,Mike
+3,30/09/15 19:22,order ready to send,system
+3,31/09/15 09:21,forward order,Mike
+3,31/09/15 09:27,order forwarded,Mike
+3,31/09/15 09:56,order delivered,Courier Co.
+4,27/09/15 13:27,register order,system
+4,27/09/15 13:42,check order,Sara
+4,27/09/15 13:43,contact customer for order verification,Sara
+4,27/09/15 13:47,check order complete,Sara
+4,27/09/15 13:47,check availability,Sara
+4,27/09/15 13:48,check availability complete,Sara
+4,27/09/15 13:48,price order,John
+4,27/09/15 13:49,price order complete,John
+4,27/09/15 13:50,gather items,Mike
+4,29/09/15 11:04,gather items complete,Mike
+4,29/09/15 11:05,order ready to send,system
+4,29/09/15 12:03,send order,Tom
+4,29/09/15 12:17,order delivered,Tom
+5,27/09/15 14:11,register order,system
+5,27/09/15 14:13,check order,John
+5,27/09/15 14:14,check order complete,John
+5,27/09/15 14:15,check availability,John
+5,27/09/15 15:03,contact customer to inform items unavailable,Sara
+5,27/09/15 15:07,cancel order,Sara
+6,27/09/15 16:11,register order,system
+6,27/09/15 17:12,check order,Mike
+6,27/09/15 17:12,check order complete,Mike
+6,27/09/15 17:12,check availability,Mike
+6,27/09/15 17:12,check availability complete,Mike
+6,27/09/15 17:13,price order,Sara
+6,27/09/15 17:15,gather items,Mike
+6,27/09/15 17:22,price order complete,Sara
+6,27/09/15 19:41,gather items complete,Mike
+6,27/09/15 19:41,order ready to send,system
+6,28/09/15 10:12,send order,Bill
+6,28/09/15 13:01,order delivered,Bill
+7,28/09/15 08:57,register order,system
+7,28/09/15 08:58,check order,Sara
+7,28/09/15 08:58,check order complete,Sara
+7,28/09/15 08:59,check availability,John
+7,28/09/15 08:59,check availability complete,John
+7,28/09/15 09:00,gather items,John
+7,28/09/15 09:39,gather items complete,John
+7,28/09/15 09:40,price order,Mike
+7,28/09/15 09:42,price order complete,Mike
+7,28/09/15 09:42,order ready to send,system
+7,28/09/15 10:12,send order,Bill
+7,28/09/15 11:00,order delivered,Bill
+8,28/09/15 09:12,register order,system
+8,28/09/15 09:17,check order,John
+8,28/09/15 09:18,contact customer for order verification,John
+8,28/09/15 09:49,cancel order,John
+
