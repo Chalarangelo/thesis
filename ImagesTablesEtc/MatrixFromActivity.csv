@@ -1,0 +1,19 @@
+,End,cancel order,check availability,check availability complete,check order,check order complete,contact customer for order verification,contact customer to inform items unavailable,forward order,gather items,gather items complete,order delivered,order forwarded,order ready to send,price order,price order complete,register order,send order
+End,-0.66,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+cancel order,0.67,-0.73,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+check availability,-1,-1,-0.79,0.86,-1,-1,-1,0.5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+check availability complete,-1,-1,-1,-0.78,-1,-1,-1,-1,-1,0.75,-1,-1,-1,-1,0.75,-1,-1,-1
+check order,-1,-1,-1,-1,-0.8,0.86,0.67,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+check order complete,-1,-1,0.87,-1,-1,-0.8,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+contact customer for order verification,-1,0.5,-1,-1,-1,0.5,-0.73,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+contact customer to inform items unavailable,-1,0.5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+forward order,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0.5,-1,-1,-1,-1,-1
+gather items,-1,-1,-1,-1,-1,-1,-1,-1,-1,-0.78,0.83,-1,-1,-1,-1,-0.56,-1,-1
+gather items complete,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0.75,0.75,-1,-1,-1
+order delivered,0.85,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-0.78,-1,-1,-1,-1,-1,-1
+order forwarded,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0.5,-1,-1,-1,-1,-1,-1
+order ready to send,-1,-1,-1,-1,-1,-1,-1,-1,0.5,-1,-1,-1,-1,-1,-1,-1,-1,1
+price order,-1,-1,-1,-1,-1,-1,-1,-1,-1,0.5,-1,-1,-1,-1,-1,0.83,-1,-1
+price order complete,-1,-1,-1,-1,-1,-1,-1,-1,-1,-0.34,0.5,-1,-1,0.75,-1,-0.78,-1,-1
+register order,-1,-1,-1,-1,0.89,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-0.75,-1
+send order,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0.8333333333,-1,-1,-1,-1,-1,-1
