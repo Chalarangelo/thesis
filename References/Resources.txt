@@ -1,4 +1,7 @@
-﻿Να βαλω στο τελος link στο bitbucket σε ανοιχτο project με τα αρχεια της πτυχιακης (event logs, petri nets και τετοια ωστε να ειναι προσβασιμα χωρις CD).
+﻿http://wwwis.win.tue.nl/~wvdaalst/publications/
+
+
+Να βαλω στο τελος link στο bitbucket σε ανοιχτο project με τα αρχεια της πτυχιακης (event logs, petri nets και τετοια ωστε να ειναι προσβασιμα χωρις CD).
 
 https://www.coursera.org/course/procmin
 http://www.win.tue.nl/ieeetfpm/lib/exe/fetch.php?media=shared:process_mining_manifesto-small.pdf
@@ -15,3 +18,5 @@ http://www.processmining.org/logs/start
 http://www.processmining.org/event_logs_and_models_used_in_book
 
 http://www.processmining.org/book/start
+
+http://wwwis.win.tue.nl/~wvdaalst/publications/p788.pdf

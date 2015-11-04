@@ -1,0 +1,97 @@
+Case ID,Timestamp (dd/MM/yy HH:mm),Activity,Resource
+9,28/09/15 11:10,register order,system
+9,28/09/15 11:14,check order,John
+9,28/09/15 11:18,check order complete,John
+9,28/09/15 11:18,check availability,John
+9,28/09/15 11:18,check availability complete,John
+9,28/09/15 11:35,gather items,Sara
+9,29/09/15 16:58,gather items complete,Sara
+9,29/09/15 17:17,price order,Sara
+9,29/09/15 17:19,price order complete,Sara
+9,29/09/15 17:19,order ready to send,system
+9,29/09/15 17:22,send order,Tom
+9,29/09/15 17:41,order delivered,Tom
+10,29/09/15 11:28,register order,system
+10,29/09/15 11:32,check order,John
+10,29/09/15 11:32,check order complete,John
+10,29/09/15 11:33,check availability,Sara
+10,29/09/15 11:37,check availability complete,Sara
+10,29/09/15 11:39,gather items,Sara
+10,30/09/15 14:56,gather items complete,Mike
+10,30/09/15 15:01,price order,Mike
+10,30/09/15 15:03,price order complete,Mike
+10,30/09/15 15:03,order ready to send,system
+10,01/10/15 08:04,send order,Bill
+10,01/10/15 08:57,order delivered,Bill
+11,30/09/15 12:40,register order,system
+11,30/09/15 12:41,check order,John
+11,30/09/15 12:41,check order complete,John
+11,30/09/15 12:42,check availability,Mike
+11,30/09/15 12:42,check availability complete,Mike
+11,30/09/15 12:42,price order,Mike
+11,30/09/15 12:44,price order complete,Mike
+11,30/09/15 12:47,gather items,John
+11,30/09/15 19:22,gather items complete,John
+11,30/09/15 19:22,order ready to send,system
+11,01/10/15 08:04,send order,Bill
+11,01/10/15 08:49,order delivered,Bill
+12,01/10/15 10:12,register order,system
+12,01/10/15 10:13,check order,Sara
+12,01/10/15 10:13,check order complete,Sara
+12,01/10/15 10:14,check availability,Sara
+12,01/10/15 10:16,check availability complete,Sara
+12,01/10/15 11:02,price order,John
+12,01/10/15 11:13,price order complete,John
+12,01/10/15 12:09,gather items,John
+12,01/10/15 13:27,gather items complete,John
+12,01/10/15 13:28,order ready to send,system
+12,01/10/15 17:02,send order,Tom
+12,01/10/15 18:36,order delivered,Tom
+13,01/10/15 10:36,register order,system
+13,01/10/15 10:37,check order,John
+13,01/10/15 10:41,check order complete,John
+13,01/10/15 10:42,check availability,John
+13,01/10/15 10:58,check availability complete,John
+13,01/10/15 11:14,gather items,John
+13,01/10/15 11:15,price order,Sara
+13,01/10/15 12:49,price order complete,Sara
+13,01/10/15 19:48,gather items complete,John
+13,01/10/15 19:48,order ready to send,system
+13,02/10/15 09:51,send order,Bill
+13,02/10/15 10:44,order delivered,Bill
+14,01/10/15 11:17,register order,system
+14,01/10/15 11:18,check order,Sara
+14,01/10/15 11:21,check order complete,Sara
+14,01/10/15 11:52,check availability,Sara
+14,01/10/15 11:56,check availability complete,Sara
+14,01/10/15 12:04,price order,Sara
+14,01/10/15 12:09,gather items,Mike
+14,01/10/15 12:42,gather items complete,Mike
+14,01/10/15 13:01,price order complete,Sara
+14,01/10/15 13:02,order ready to send,system
+14,01/10/15 17:02,send order,Tom
+14,01/10/15 17:34,order delivered,Tom
+15,01/10/15 12:39,register order,system
+15,01/10/15 12:40,check order,Mike
+15,01/10/15 12:42,check order complete,Mike
+15,01/10/15 12:43,check availability,Sara
+15,01/10/15 12:45,check availability complete,Sara
+15,01/10/15 12:50,gather items,John
+15,01/10/15 12:55,price order,John
+15,01/10/15 16:58,gather items complete,John
+15,01/10/15 17:01,price order complete,Mike
+15,01/10/15 17:01,order ready to send,system
+15,01/10/15 17:02,send order,Tom
+15,01/10/15 19:08,order delivered,Tom
+16,01/10/15 12:42,register order,system
+16,01/10/15 15:01,check order,Sara
+16,01/10/15 15:05,check order complete,Sara
+16,01/10/15 15:06,check availability,Sara
+16,01/10/15 15:06,check availability complete,Sara
+16,01/10/15 16:39,gather items,John
+16,01/10/15 19:46,gather items complete,John
+16,02/10/15 08:06,price order,Mike
+16,02/10/15 08:14,price order complete,Mike
+16,02/10/15 08:14,order ready to send,system
+16,02/10/15 09:51,send order,Bill
+16,02/10/15 12:06,order delivered,Bill
