@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XES version 1.0 -->
+<!-- Created by Fluxicon Disco (http://fluxicon.com/disco/ -->
+<!-- (c) 2015 Fluxicon - http://fluxicon.com/ -->
+<log xes.version="1.0" xmlns="http://www.xes-standard.org" xes.creator="Fluxicon Disco">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="name"/>
+		<string key="variant" value="string"/>
+	</global>
+	<global scope="event">
+		<string key="concept:name" value="name"/>
+		<string key="lifecycle:transition" value="transition"/>
+		<string key="org:resource" value="resource"/>
+		<date key="time:timestamp" value="2015-11-10T01:40:03.477+02:00"/>
+		<string key="Activity" value="string"/>
+		<string key="Resource" value="string"/>
+	</global>
+	<classifier name="Activity" keys="Activity"/>
+	<classifier name="Resource" keys="Resource"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="creator" value="Fluxicon Disco"/>
+	<string key="library" value="Fluxicon Octane"/>
+	<trace>
+		<string key="concept:name" value="17"/>
+		<string key="variant" value="Variant 2"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-02T11:47:00.000+03:00"/>
+			<string key="Activity" value="register order"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-02T11:49:00.000+03:00"/>
+			<string key="Activity" value="check order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-02T11:50:00.000+03:00"/>
+			<string key="Activity" value="check order complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-02T11:51:00.000+03:00"/>
+			<string key="Activity" value="check availability"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-02T11:54:00.000+03:00"/>
+			<string key="Activity" value="check availability complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-02T11:58:00.000+03:00"/>
+			<string key="Activity" value="price order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-02T12:07:00.000+03:00"/>
+			<string key="Activity" value="price order complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-02T12:08:00.000+03:00"/>
+			<string key="Activity" value="gather items"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-02T17:36:00.000+03:00"/>
+			<string key="Activity" value="gather items complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order ready to send"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-02T17:36:00.000+03:00"/>
+			<string key="Activity" value="order ready to send"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-02T18:23:00.000+03:00"/>
+			<string key="Activity" value="send order"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order delivered"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-02T18:56:00.000+03:00"/>
+			<string key="Activity" value="order delivered"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="End"/>
+			<date key="time:timestamp" value="2015-10-02T18:56:00.000+03:00"/>
+			<string key="Activity" value="End"/>
+			<string key="Resource" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="18"/>
+		<string key="variant" value="Variant 3"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-02T13:21:00.000+03:00"/>
+			<string key="Activity" value="register order"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-02T13:38:00.000+03:00"/>
+			<string key="Activity" value="check order"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="contact customer for order verification"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-02T13:40:00.000+03:00"/>
+			<string key="Activity" value="contact customer for order verification"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-02T13:43:00.000+03:00"/>
+			<string key="Activity" value="check order complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-02T13:43:00.000+03:00"/>
+			<string key="Activity" value="check availability"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-02T13:44:00.000+03:00"/>
+			<string key="Activity" value="check availability complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-02T14:12:00.000+03:00"/>
+			<string key="Activity" value="gather items"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-02T15:49:00.000+03:00"/>
+			<string key="Activity" value="gather items complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Mike"/>
+			<date key="time:timestamp" value="2015-10-02T16:34:00.000+03:00"/>
+			<string key="Activity" value="price order"/>
+			<string key="Resource" value="Mike"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Mike"/>
+			<date key="time:timestamp" value="2015-10-02T16:38:00.000+03:00"/>
+			<string key="Activity" value="price order complete"/>
+			<string key="Resource" value="Mike"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order ready to send"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-02T16:38:00.000+03:00"/>
+			<string key="Activity" value="order ready to send"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-02T18:23:00.000+03:00"/>
+			<string key="Activity" value="send order"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order delivered"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-02T19:21:00.000+03:00"/>
+			<string key="Activity" value="order delivered"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="End"/>
+			<date key="time:timestamp" value="2015-10-02T19:21:00.000+03:00"/>
+			<string key="Activity" value="End"/>
+			<string key="Resource" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="19"/>
+		<string key="variant" value="Variant 1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-02T19:47:00.000+03:00"/>
+			<string key="Activity" value="register order"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T08:04:00.000+03:00"/>
+			<string key="Activity" value="check order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T08:04:00.000+03:00"/>
+			<string key="Activity" value="check order complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Mike"/>
+			<date key="time:timestamp" value="2015-10-03T08:05:00.000+03:00"/>
+			<string key="Activity" value="check availability"/>
+			<string key="Resource" value="Mike"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Mike"/>
+			<date key="time:timestamp" value="2015-10-03T08:17:00.000+03:00"/>
+			<string key="Activity" value="check availability complete"/>
+			<string key="Resource" value="Mike"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Mike"/>
+			<date key="time:timestamp" value="2015-10-03T08:17:00.000+03:00"/>
+			<string key="Activity" value="gather items"/>
+			<string key="Resource" value="Mike"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Mike"/>
+			<date key="time:timestamp" value="2015-10-03T10:48:00.000+03:00"/>
+			<string key="Activity" value="gather items complete"/>
+			<string key="Resource" value="Mike"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Mike"/>
+			<date key="time:timestamp" value="2015-10-03T11:01:00.000+03:00"/>
+			<string key="Activity" value="price order"/>
+			<string key="Resource" value="Mike"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Mike"/>
+			<date key="time:timestamp" value="2015-10-03T14:22:00.000+03:00"/>
+			<string key="Activity" value="price order complete"/>
+			<string key="Resource" value="Mike"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order ready to send"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-03T14:22:00.000+03:00"/>
+			<string key="Activity" value="order ready to send"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Bill"/>
+			<date key="time:timestamp" value="2015-10-03T16:08:00.000+03:00"/>
+			<string key="Activity" value="send order"/>
+			<string key="Resource" value="Bill"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order delivered"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Bill"/>
+			<date key="time:timestamp" value="2015-10-03T16:46:00.000+03:00"/>
+			<string key="Activity" value="order delivered"/>
+			<string key="Resource" value="Bill"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="End"/>
+			<date key="time:timestamp" value="2015-10-03T16:46:00.000+03:00"/>
+			<string key="Activity" value="End"/>
+			<string key="Resource" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20"/>
+		<string key="variant" value="Variant 1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-03T12:37:00.000+03:00"/>
+			<string key="Activity" value="register order"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T12:39:00.000+03:00"/>
+			<string key="Activity" value="check order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T12:41:00.000+03:00"/>
+			<string key="Activity" value="check order complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T12:43:00.000+03:00"/>
+			<string key="Activity" value="check availability"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T12:48:00.000+03:00"/>
+			<string key="Activity" value="check availability complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T12:49:00.000+03:00"/>
+			<string key="Activity" value="gather items"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T18:28:00.000+03:00"/>
+			<string key="Activity" value="gather items complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-03T18:34:00.000+03:00"/>
+			<string key="Activity" value="price order"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-03T18:35:00.000+03:00"/>
+			<string key="Activity" value="price order complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order ready to send"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-03T18:36:00.000+03:00"/>
+			<string key="Activity" value="order ready to send"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Bill"/>
+			<date key="time:timestamp" value="2015-10-04T11:04:00.000+03:00"/>
+			<string key="Activity" value="send order"/>
+			<string key="Resource" value="Bill"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order delivered"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Bill"/>
+			<date key="time:timestamp" value="2015-10-04T11:16:00.000+03:00"/>
+			<string key="Activity" value="order delivered"/>
+			<string key="Resource" value="Bill"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="End"/>
+			<date key="time:timestamp" value="2015-10-04T11:16:00.000+03:00"/>
+			<string key="Activity" value="End"/>
+			<string key="Resource" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21"/>
+		<string key="variant" value="Variant 4"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-03T12:59:00.000+03:00"/>
+			<string key="Activity" value="register order"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T13:07:00.000+03:00"/>
+			<string key="Activity" value="check order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T13:14:00.000+03:00"/>
+			<string key="Activity" value="check order complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T13:14:00.000+03:00"/>
+			<string key="Activity" value="check availability"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="contact customer to inform items unavailable"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T13:17:00.000+03:00"/>
+			<string key="Activity" value="contact customer to inform items unavailable"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="cancel order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-03T13:29:00.000+03:00"/>
+			<string key="Activity" value="cancel order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="End"/>
+			<date key="time:timestamp" value="2015-10-03T13:29:00.000+03:00"/>
+			<string key="Activity" value="End"/>
+			<string key="Resource" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="22"/>
+		<string key="variant" value="Variant 1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-04T08:51:00.000+03:00"/>
+			<string key="Activity" value="register order"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T08:54:00.000+03:00"/>
+			<string key="Activity" value="check order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T08:57:00.000+03:00"/>
+			<string key="Activity" value="check order complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-04T08:58:00.000+03:00"/>
+			<string key="Activity" value="check availability"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-04T08:59:00.000+03:00"/>
+			<string key="Activity" value="check availability complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-04T09:01:00.000+03:00"/>
+			<string key="Activity" value="gather items"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-04T12:38:00.000+03:00"/>
+			<string key="Activity" value="gather items complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-04T12:39:00.000+03:00"/>
+			<string key="Activity" value="price order"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-04T13:04:00.000+03:00"/>
+			<string key="Activity" value="price order complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order ready to send"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-04T13:04:00.000+03:00"/>
+			<string key="Activity" value="order ready to send"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-04T16:07:00.000+03:00"/>
+			<string key="Activity" value="send order"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order delivered"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-04T17:19:00.000+03:00"/>
+			<string key="Activity" value="order delivered"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="End"/>
+			<date key="time:timestamp" value="2015-10-04T17:19:00.000+03:00"/>
+			<string key="Activity" value="End"/>
+			<string key="Resource" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="23"/>
+		<string key="variant" value="Variant 1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-04T12:37:00.000+03:00"/>
+			<string key="Activity" value="register order"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T12:38:00.000+03:00"/>
+			<string key="Activity" value="check order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T12:41:00.000+03:00"/>
+			<string key="Activity" value="check order complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T12:42:00.000+03:00"/>
+			<string key="Activity" value="check availability"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T12:49:00.000+03:00"/>
+			<string key="Activity" value="check availability complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T12:52:00.000+03:00"/>
+			<string key="Activity" value="gather items"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T13:46:00.000+03:00"/>
+			<string key="Activity" value="gather items complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T14:21:00.000+03:00"/>
+			<string key="Activity" value="price order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-04T14:28:00.000+03:00"/>
+			<string key="Activity" value="price order complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order ready to send"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-04T14:28:00.000+03:00"/>
+			<string key="Activity" value="order ready to send"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-04T16:07:00.000+03:00"/>
+			<string key="Activity" value="send order"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order delivered"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-04T17:38:00.000+03:00"/>
+			<string key="Activity" value="order delivered"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="End"/>
+			<date key="time:timestamp" value="2015-10-04T17:38:00.000+03:00"/>
+			<string key="Activity" value="End"/>
+			<string key="Resource" value="End"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="24"/>
+		<string key="variant" value="Variant 5"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-05T16:39:00.000+03:00"/>
+			<string key="Activity" value="register order"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-05T16:43:00.000+03:00"/>
+			<string key="Activity" value="check order"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="contact customer for order verification"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-05T16:48:00.000+03:00"/>
+			<string key="Activity" value="contact customer for order verification"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-05T17:01:00.000+03:00"/>
+			<string key="Activity" value="check order complete"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Sara"/>
+			<date key="time:timestamp" value="2015-10-05T17:04:00.000+03:00"/>
+			<string key="Activity" value="check availability"/>
+			<string key="Resource" value="Sara"/>
+		</event>
+		<event>
+			<string key="concept:name" value="check availability complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-05T17:09:00.000+03:00"/>
+			<string key="Activity" value="check availability complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-05T17:10:00.000+03:00"/>
+			<string key="Activity" value="price order"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="price order complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-05T17:16:00.000+03:00"/>
+			<string key="Activity" value="price order complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-05T17:18:00.000+03:00"/>
+			<string key="Activity" value="gather items"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="gather items complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="John"/>
+			<date key="time:timestamp" value="2015-10-05T18:29:00.000+03:00"/>
+			<string key="Activity" value="gather items complete"/>
+			<string key="Resource" value="John"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order ready to send"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="system"/>
+			<date key="time:timestamp" value="2015-10-05T18:29:00.000+03:00"/>
+			<string key="Activity" value="order ready to send"/>
+			<string key="Resource" value="system"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send order"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-05T19:03:00.000+03:00"/>
+			<string key="Activity" value="send order"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="order delivered"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Tom"/>
+			<date key="time:timestamp" value="2015-10-05T19:57:00.000+03:00"/>
+			<string key="Activity" value="order delivered"/>
+			<string key="Resource" value="Tom"/>
+		</event>
+		<event>
+			<string key="concept:name" value="End"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="End"/>
+			<date key="time:timestamp" value="2015-10-05T19:57:00.000+03:00"/>
+			<string key="Activity" value="End"/>
+			<string key="Resource" value="End"/>
+		</event>
+	</trace>
+</log>

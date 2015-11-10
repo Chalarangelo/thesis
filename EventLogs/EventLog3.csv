@@ -1,0 +1,93 @@
+Case ID,Timestamp (dd/MM/yy HH:mm),Activity,Resource
+17,02/10/2015 11:47,register order,system
+17,02/10/2015 11:49,check order,Sara
+17,02/10/2015 11:50,check order complete,Sara
+17,02/10/2015 11:51,check availability,Sara
+17,02/10/2015 11:54,check availability complete,Sara
+17,02/10/2015 11:58,price order,Sara
+17,02/10/2015 12:07,price order complete,Sara
+17,02/10/2015 12:08,gather items,Sara
+17,02/10/2015 17:36,gather items complete,Sara
+17,02/10/2015 17:36,order ready to send,system
+17,02/10/2015 18:23,send order,Tom
+17,02/10/2015 18:56,order delivered,Tom
+18,02/10/2015 13:21,register order,system
+18,02/10/2015 13:38,check order,John
+18,02/10/2015 13:40,contact customer for order verification,John
+18,02/10/2015 13:43,check order complete,John
+18,02/10/2015 13:43,check availability,John
+18,02/10/2015 13:44,check availability complete,John
+18,02/10/2015 14:12,gather items,John
+18,02/10/2015 15:49,gather items complete,John
+18,02/10/2015 16:34,price order,Mike
+18,02/10/2015 16:38,price order complete,Mike
+18,02/10/2015 16:38,order ready to send,system
+18,02/10/2015 18:23,send order,Tom
+18,02/10/2015 19:21,order delivered,Tom
+19,02/10/2015 19:47,register order,system
+19,03/10/2015 08:04,check order,Sara
+19,03/10/2015 08:04,check order complete,Sara
+19,03/10/2015 08:05,check availability,Mike
+19,03/10/2015 08:17,check availability complete,Mike
+19,03/10/2015 08:17,gather items,Mike
+19,03/10/2015 10:48,gather items complete,Mike
+19,03/10/2015 11:01,price order,Mike
+19,03/10/2015 14:22,price order complete,Mike
+19,03/10/2015 14:22,order ready to send,system
+19,03/10/2015 16:08,send order,Bill
+19,03/10/2015 16:46,order delivered,Bill
+20,03/10/2015 12:37,register order,system
+20,03/10/2015 12:39,check order,Sara
+20,03/10/2015 12:41,check order complete,Sara
+20,03/10/2015 12:43,check availability,Sara
+20,03/10/2015 12:48,check availability complete,Sara
+20,03/10/2015 12:49,gather items,Sara
+20,03/10/2015 18:28,gather items complete,Sara
+20,03/10/2015 18:34,price order,John
+20,03/10/2015 18:35,price order complete,John
+20,03/10/2015 18:36,order ready to send,system
+20,04/10/2015 11:04,send order,Bill
+20,04/10/2015 11:16,order delivered,Bill
+21,03/10/2015 12:59,register order,system
+21,03/10/2015 13:07,check order,Sara
+21,03/10/2015 13:14,check order complete,Sara
+21,03/10/2015 13:14,check availability,Sara
+21,03/10/2015 13:17,contact customer to inform items unavailable,Sara
+21,03/10/2015 13:29,cancel order,Sara
+22,04/10/2015 08:51,register order,system
+22,04/10/2015 08:54,check order,Sara
+22,04/10/2015 08:57,check order complete,Sara
+22,04/10/2015 08:58,check availability,John
+22,04/10/2015 08:59,check availability complete,John
+22,04/10/2015 09:01,gather items,John
+22,04/10/2015 12:38,gather items complete,John
+22,04/10/2015 12:39,price order,John
+22,04/10/2015 13:04,price order complete,John
+22,04/10/2015 13:04,order ready to send,system
+22,04/10/2015 16:07,send order,Tom
+22,04/10/2015 17:19,order delivered,Tom
+23,04/10/2015 12:37,register order,system
+23,04/10/2015 12:38,check order,Sara
+23,04/10/2015 12:41,check order complete,Sara
+23,04/10/2015 12:42,check availability,Sara
+23,04/10/2015 12:49,check availability complete,Sara
+23,04/10/2015 12:52,gather items,Sara
+23,04/10/2015 13:46,gather items complete,Sara
+23,04/10/2015 14:21,price order,Sara
+23,04/10/2015 14:28,price order complete,Sara
+23,04/10/2015 14:28,order ready to send,system
+23,04/10/2015 16:07,send order,Tom
+23,04/10/2015 17:38,order delivered,Tom
+24,05/10/2015 16:39,register order,system
+24,05/10/2015 16:43,check order,Sara
+24,05/10/2015 16:48,contact customer for order verification,Sara
+24,05/10/2015 17:01,check order complete,Sara
+24,05/10/2015 17:04,check availability,Sara
+24,05/10/2015 17:09,check availability complete,John
+24,05/10/2015 17:10,price order,John
+24,05/10/2015 17:16,price order complete,John
+24,05/10/2015 17:18,gather items,John
+24,05/10/2015 18:29,gather items complete,John
+24,05/10/2015 18:29,order ready to send,system
+24,05/10/2015 19:03,send order,Tom
+24,05/10/2015 19:57,order delivered,Tom
