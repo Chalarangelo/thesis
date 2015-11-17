@@ -1,4 +1,7 @@
-﻿Dejavu Sans Mono
+﻿Conformance Checking στο http://wwwis.win.tue.nl/~wvdaalst/publications/publications.html 806 και πανω
+πολύ καλό το 802 γενικά (ίσως το επόμενο reference)
+
+Dejavu Sans Mono
 
 
 http://wwwis.win.tue.nl/~wvdaalst/publications/
