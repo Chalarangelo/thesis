@@ -1,0 +1,23 @@
+Result of replaying Petri Net (Empty after Completion) from Anonymous log imported from EventLog1.xes, mined with ILP Miner [Reduced] [Reduced] on Anonymous log imported from EventLog2.xes
+
+Index,Case IDs,NumOfCases,IsReliable,"Raw Fitness Cost",Match
+1,"9|10|16",3,Yes,"0.00",[L/M]register order|[L/M]check order|[L/M]check order complete|[L/M]check availability|[L/M]check availability complete|[L/M]gather items|[L/M]gather items complete|[L/M]price order|[L/M]price order complete|[L/M]order ready to send|[L/M]send order|[L/M]order delivered|[M-INVI]End
+2,"11|12",2,Yes,"0.00",[L/M]register order|[L/M]check order|[L/M]check order complete|[L/M]check availability|[L/M]check availability complete|[L/M]price order|[L/M]price order complete|[L/M]gather items|[L/M]gather items complete|[L/M]order ready to send|[L/M]send order|[L/M]order delivered|[M-INVI]End
+3,"13",1,Yes,"20.00",[L/M]register order|[L/M]check order|[L/M]check order complete|[L/M]check availability|[L/M]check availability complete|[L/M]gather items|[L]price order|[L]price order complete|[L/M]gather items complete|[L/M]order ready to send|[L/M]send order|[L/M]order delivered|[M-INVI]End
+4,"14",1,Yes,"20.00",[L/M]register order|[L/M]check order|[L/M]check order complete|[L/M]check availability|[L/M]check availability complete|[L]price order|[L/M]gather items|[L/M]gather items complete|[L]price order complete|[L/M]order ready to send|[L/M]send order|[L/M]order delivered|[M-INVI]End
+5,"15",1,Yes,"20.00",[L/M]register order|[L/M]check order|[L/M]check order complete|[L/M]check availability|[L/M]check availability complete|[L/M]gather items|[L]price order|[L/M]gather items complete|[L]price order complete|[L/M]order ready to send|[L/M]send order|[L/M]order delivered|[M-INVI]End
+
+
+ONLY RELIABLE RESULTS
+
+Property,Value
+#Reliable cases replayed,8
+#Synchronous ev.class (log+model),90
+#Skipped ev.class,0
+#Unobservable ev.class,8
+#Inserted ev.class,6
+Raw Fitness Cost,7.5
+
+
+Property,Average,Minimum,Maximum,Std. Deviation,Number of cases with value 1.00
+"Raw Fitness Cost","7.50","0.00","20.00","10.35","0.00"
