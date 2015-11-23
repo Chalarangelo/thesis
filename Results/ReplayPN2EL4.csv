@@ -1,0 +1,24 @@
+Result of replaying Petri Net (Empty after Completion) from Anonymous log imported from EventLog2.xes, mined with ILP Miner [Reduced] [Reduced] on Anonymous log imported from EventLog4.xes
+
+Index,Case IDs,NumOfCases,IsReliable,"Raw Fitness Cost",Match
+1,"25|28",2,Yes,"110.00",[L/M]register order|[L/M]check order|[L/M]check order complete|[L/M]check availability|[M-REAL]check availability complete|[M-REAL]gather items|[M-REAL]gather items complete|[M-REAL]price order|[M-REAL]price order complete|[M-REAL]order ready to send|[M-REAL]send order|[M-REAL]order delivered|[L]contact customer to inform items unavailable|[L]cancel order|[L]End
+2,"26|31",2,Yes,"130.00",[L/M]register order|[L/M]check order|[M-REAL]check order complete|[M-REAL]check availability|[M-REAL]check availability complete|[M-REAL]gather items|[M-REAL]price order|[M-REAL]price order complete|[M-REAL]gather items complete|[M-REAL]order ready to send|[M-REAL]send order|[M-REAL]order delivered|[L]contact customer for order verification|[L]cancel order|[L]End
+3,"30",1,Yes,"120.00",[L/M]register order|[L/M]check order|[L]contact customer for order verification|[L/M]check order complete|[L/M]check availability|[M-REAL]check availability complete|[M-REAL]gather items|[M-REAL]gather items complete|[M-REAL]price order|[M-REAL]price order complete|[M-REAL]order ready to send|[M-REAL]send order|[M-REAL]order delivered|[L]contact customer to inform items unavailable|[L]cancel order|[L]End
+4,"27",1,Yes,"20.00",[L/M]register order|[L/M]check order|[L]contact customer for order verification|[L/M]check order complete|[L/M]check availability|[L/M]check availability complete|[L/M]gather items|[L/M]gather items complete|[L/M]price order|[L/M]price order complete|[L/M]order ready to send|[L/M]send order|[L/M]order delivered|[L]End
+5,"29",1,Yes,"20.00",[L/M]register order|[L/M]check order|[L]contact customer for order verification|[L/M]check order complete|[L/M]check availability|[L/M]check availability complete|[L/M]price order|[L/M]price order complete|[L/M]gather items|[L/M]gather items complete|[L/M]order ready to send|[L/M]send order|[L/M]order delivered|[L]End
+6,"32",1,Yes,"10.00",[L/M]register order|[L/M]check order|[L/M]check order complete|[L/M]check availability|[L/M]check availability complete|[L/M]gather items|[L/M]gather items complete|[L/M]price order|[L/M]price order complete|[L/M]order ready to send|[L/M]send order|[L/M]order delivered|[L]End
+
+
+ONLY RELIABLE RESULTS
+
+Property,Value
+#Reliable cases replayed,8
+#Synchronous ev.class (log+model),52
+#Skipped ev.class,44
+#Unobservable ev.class,0
+#Inserted ev.class,21
+Raw Fitness Cost,81.25
+
+
+Property,Average,Minimum,Maximum,Std. Deviation,Number of cases with value 1.00
+"Raw Fitness Cost","81.25","10.00","130.00","54.10","0.00"
