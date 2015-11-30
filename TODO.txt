@@ -1,0 +1,19 @@
+Κεφάλαιο 3:
+Προσθήκη Utility plug-ins:
+BPMN -> Petri Net (και το ανάποδο)
+Pack/Unpack Petri Net (Accepting σε απλό και το ανάποδο)
+Merge Event Logs
+Filter (pick random events)
+
+Κεφάλαιο 4 - Model Enhancement:
+Add Elapsed Time in Trace as Attribute to all Events
+Add Elapsed Times between Two Event Classes as Attribute (από το check availability complete μέχρι το order ready to send -> Event Log 2)
+Anonymize Log
+Re-Sort
+
+Event Logs:
+Δεν υπάρχει Event Log 5, αν είναι αναγκαίο να προστεθεί και να αναφερθεί και στο Conformance Checking λογικά
+Προσθήκη περιγραφής του κάθε Event Log στο Παράρτημα, ούτως ώστε να είναι ευδιάκριτο τι είδους Events περιλαμβάνει
+
+Συμπεράσματα:
+Να γραφεί η ενότητα

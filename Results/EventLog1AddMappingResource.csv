@@ -1,0 +1,93 @@
+Case ID,Activity,Resource,Complete Timestamp,Variant,(case) creator,(case) variant,Resource,Resource Type-activityName,concept:name,lifecycle:transition,org:resource
+1,register order,Fluxicon Disco\\Fluxicon Disco,2015/09/26 09:06:00.000,Variant 1,Fluxicon Disco,Variant 1,system,System,register order,complete,system
+1,check order,Fluxicon Disco\\Fluxicon Disco,2015/09/26 09:34:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,check order,complete,John
+1,check order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/26 09:34:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,check order complete,complete,John
+1,check availability,Fluxicon Disco\\Fluxicon Disco,2015/09/26 09:34:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,check availability,complete,John
+1,check availability complete,Fluxicon Disco\\Fluxicon Disco,2015/09/26 09:34:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,check availability complete,complete,John
+1,gather items,Fluxicon Disco\\Fluxicon Disco,2015/09/26 09:35:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,gather items,complete,John
+1,gather items complete,Fluxicon Disco\\Fluxicon Disco,2015/09/28 14:58:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,gather items complete,complete,John
+1,price order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 15:17:00.000,Variant 1,Fluxicon Disco,Variant 1,Mike,Warehouse Employee,price order,complete,Mike
+1,price order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/28 15:18:00.000,Variant 1,Fluxicon Disco,Variant 1,Mike,Warehouse Employee,price order complete,complete,Mike
+1,order ready to send,Fluxicon Disco\\Fluxicon Disco,2015/09/28 15:18:00.000,Variant 1,Fluxicon Disco,Variant 1,system,System,order ready to send,complete,system
+1,send order,Fluxicon Disco\\Fluxicon Disco,2015/09/29 12:03:00.000,Variant 1,Fluxicon Disco,Variant 1,Tom,Delivery Employee,send order,complete,Tom
+1,order delivered,Fluxicon Disco\\Fluxicon Disco,2015/09/29 12:41:00.000,Variant 1,Fluxicon Disco,Variant 1,Tom,Delivery Employee,order delivered,complete,Tom
+1,End,Fluxicon Disco\\Fluxicon Disco,2015/09/29 12:41:00.000,Variant 1,Fluxicon Disco,Variant 1,End,System,End,complete,End
+2,register order,Fluxicon Disco\\Fluxicon Disco,2015/09/26 12:11:00.000,Variant 2,Fluxicon Disco,Variant 2,system,System,register order,complete,system
+2,check order,Fluxicon Disco\\Fluxicon Disco,2015/09/26 12:37:00.000,Variant 2,Fluxicon Disco,Variant 2,Sara,Warehouse Employee,check order,complete,Sara
+2,check order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/26 12:38:00.000,Variant 2,Fluxicon Disco,Variant 2,Sara,Warehouse Employee,check order complete,complete,Sara
+2,check availability,Fluxicon Disco\\Fluxicon Disco,2015/09/26 12:38:00.000,Variant 2,Fluxicon Disco,Variant 2,Sara,Warehouse Employee,check availability,complete,Sara
+2,check availability complete,Fluxicon Disco\\Fluxicon Disco,2015/09/26 12:40:00.000,Variant 2,Fluxicon Disco,Variant 2,Sara,Warehouse Employee,check availability complete,complete,Sara
+2,price order,Fluxicon Disco\\Fluxicon Disco,2015/09/26 12:42:00.000,Variant 2,Fluxicon Disco,Variant 2,Sara,Warehouse Employee,price order,complete,Sara
+2,price order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/26 12:51:00.000,Variant 2,Fluxicon Disco,Variant 2,Sara,Warehouse Employee,price order complete,complete,Sara
+2,gather items,Fluxicon Disco\\Fluxicon Disco,2015/09/26 13:31:00.000,Variant 2,Fluxicon Disco,Variant 2,John,Warehouse Employee,gather items,complete,John
+2,gather items complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 19:37:00.000,Variant 2,Fluxicon Disco,Variant 2,John,Warehouse Employee,gather items complete,complete,John
+2,order ready to send,Fluxicon Disco\\Fluxicon Disco,2015/09/27 19:38:00.000,Variant 2,Fluxicon Disco,Variant 2,system,System,order ready to send,complete,system
+2,send order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 10:12:00.000,Variant 2,Fluxicon Disco,Variant 2,Bill,Delivery Employee,send order,complete,Bill
+2,order delivered,Fluxicon Disco\\Fluxicon Disco,2015/09/28 12:09:00.000,Variant 2,Fluxicon Disco,Variant 2,Bill,Delivery Employee,order delivered,complete,Bill
+2,End,Fluxicon Disco\\Fluxicon Disco,2015/09/28 12:09:00.000,Variant 2,Fluxicon Disco,Variant 2,End,System,End,complete,End
+3,register order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 10:33:00.000,Variant 3,Fluxicon Disco,Variant 3,system,System,register order,complete,system
+3,check order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 11:22:00.000,Variant 3,Fluxicon Disco,Variant 3,John,Warehouse Employee,check order,complete,John
+3,check order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 11:23:00.000,Variant 3,Fluxicon Disco,Variant 3,John,Warehouse Employee,check order complete,complete,John
+3,check availability,Fluxicon Disco\\Fluxicon Disco,2015/09/27 11:24:00.000,Variant 3,Fluxicon Disco,Variant 3,John,Warehouse Employee,check availability,complete,John
+3,check availability complete,Fluxicon Disco\\Fluxicon Disco,2015/09/28 08:42:00.000,Variant 3,Fluxicon Disco,Variant 3,John,Warehouse Employee,check availability complete,complete,John
+3,gather items,Fluxicon Disco\\Fluxicon Disco,2015/09/28 08:48:00.000,Variant 3,Fluxicon Disco,Variant 3,John,Warehouse Employee,gather items,complete,John
+3,gather items complete,Fluxicon Disco\\Fluxicon Disco,2015/09/30 11:47:00.000,Variant 3,Fluxicon Disco,Variant 3,John,Warehouse Employee,gather items complete,complete,John
+3,price order,Fluxicon Disco\\Fluxicon Disco,2015/09/30 18:59:00.000,Variant 3,Fluxicon Disco,Variant 3,Mike,Warehouse Employee,price order,complete,Mike
+3,price order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/30 19:22:00.000,Variant 3,Fluxicon Disco,Variant 3,Mike,Warehouse Employee,price order complete,complete,Mike
+3,order ready to send,Fluxicon Disco\\Fluxicon Disco,2015/09/30 19:22:00.000,Variant 3,Fluxicon Disco,Variant 3,system,System,order ready to send,complete,system
+3,forward order,Fluxicon Disco\\Fluxicon Disco,2015/10/01 09:21:00.000,Variant 3,Fluxicon Disco,Variant 3,Mike,Warehouse Employee,forward order,complete,Mike
+3,order forwarded,Fluxicon Disco\\Fluxicon Disco,2015/10/01 09:27:00.000,Variant 3,Fluxicon Disco,Variant 3,Mike,Warehouse Employee,order forwarded,complete,Mike
+3,order delivered,Fluxicon Disco\\Fluxicon Disco,2015/10/01 09:56:00.000,Variant 3,Fluxicon Disco,Variant 3,Courier Co.,Courier Co.,order delivered,complete,Courier Co.
+3,End,Fluxicon Disco\\Fluxicon Disco,2015/10/01 09:56:00.000,Variant 3,Fluxicon Disco,Variant 3,End,System,End,complete,End
+4,register order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 13:27:00.000,Variant 4,Fluxicon Disco,Variant 4,system,System,register order,complete,system
+4,check order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 13:42:00.000,Variant 4,Fluxicon Disco,Variant 4,Sara,Warehouse Employee,check order,complete,Sara
+4,contact customer for order verification,Fluxicon Disco\\Fluxicon Disco,2015/09/27 13:43:00.000,Variant 4,Fluxicon Disco,Variant 4,Sara,Warehouse Employee,contact customer for order verification,complete,Sara
+4,check order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 13:47:00.000,Variant 4,Fluxicon Disco,Variant 4,Sara,Warehouse Employee,check order complete,complete,Sara
+4,check availability,Fluxicon Disco\\Fluxicon Disco,2015/09/27 13:47:00.000,Variant 4,Fluxicon Disco,Variant 4,Sara,Warehouse Employee,check availability,complete,Sara
+4,check availability complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 13:48:00.000,Variant 4,Fluxicon Disco,Variant 4,Sara,Warehouse Employee,check availability complete,complete,Sara
+4,price order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 13:48:00.000,Variant 4,Fluxicon Disco,Variant 4,John,Warehouse Employee,price order,complete,John
+4,price order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 13:49:00.000,Variant 4,Fluxicon Disco,Variant 4,John,Warehouse Employee,price order complete,complete,John
+4,gather items,Fluxicon Disco\\Fluxicon Disco,2015/09/27 13:50:00.000,Variant 4,Fluxicon Disco,Variant 4,Mike,Warehouse Employee,gather items,complete,Mike
+4,gather items complete,Fluxicon Disco\\Fluxicon Disco,2015/09/29 11:04:00.000,Variant 4,Fluxicon Disco,Variant 4,Mike,Warehouse Employee,gather items complete,complete,Mike
+4,order ready to send,Fluxicon Disco\\Fluxicon Disco,2015/09/29 11:05:00.000,Variant 4,Fluxicon Disco,Variant 4,system,System,order ready to send,complete,system
+4,send order,Fluxicon Disco\\Fluxicon Disco,2015/09/29 12:03:00.000,Variant 4,Fluxicon Disco,Variant 4,Tom,Delivery Employee,send order,complete,Tom
+4,order delivered,Fluxicon Disco\\Fluxicon Disco,2015/09/29 12:17:00.000,Variant 4,Fluxicon Disco,Variant 4,Tom,Delivery Employee,order delivered,complete,Tom
+4,End,Fluxicon Disco\\Fluxicon Disco,2015/09/29 12:17:00.000,Variant 4,Fluxicon Disco,Variant 4,End,System,End,complete,End
+5,register order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 14:11:00.000,Variant 5,Fluxicon Disco,Variant 5,system,System,register order,complete,system
+5,check order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 14:13:00.000,Variant 5,Fluxicon Disco,Variant 5,John,Warehouse Employee,check order,complete,John
+5,check order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 14:14:00.000,Variant 5,Fluxicon Disco,Variant 5,John,Warehouse Employee,check order complete,complete,John
+5,check availability,Fluxicon Disco\\Fluxicon Disco,2015/09/27 14:15:00.000,Variant 5,Fluxicon Disco,Variant 5,John,Warehouse Employee,check availability,complete,John
+5,contact customer to inform items unavailable,Fluxicon Disco\\Fluxicon Disco,2015/09/27 15:03:00.000,Variant 5,Fluxicon Disco,Variant 5,Sara,Warehouse Employee,contact customer to inform items unavailable,complete,Sara
+5,cancel order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 15:07:00.000,Variant 5,Fluxicon Disco,Variant 5,Sara,Warehouse Employee,cancel order,complete,Sara
+5,End,Fluxicon Disco\\Fluxicon Disco,2015/09/27 15:07:00.000,Variant 5,Fluxicon Disco,Variant 5,End,System,End,complete,End
+6,register order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 16:11:00.000,Variant 6,Fluxicon Disco,Variant 6,system,System,register order,complete,system
+6,check order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 17:12:00.000,Variant 6,Fluxicon Disco,Variant 6,Mike,Warehouse Employee,check order,complete,Mike
+6,check order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 17:12:00.000,Variant 6,Fluxicon Disco,Variant 6,Mike,Warehouse Employee,check order complete,complete,Mike
+6,check availability,Fluxicon Disco\\Fluxicon Disco,2015/09/27 17:12:00.000,Variant 6,Fluxicon Disco,Variant 6,Mike,Warehouse Employee,check availability,complete,Mike
+6,check availability complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 17:12:00.000,Variant 6,Fluxicon Disco,Variant 6,Mike,Warehouse Employee,check availability complete,complete,Mike
+6,price order,Fluxicon Disco\\Fluxicon Disco,2015/09/27 17:13:00.000,Variant 6,Fluxicon Disco,Variant 6,Sara,Warehouse Employee,price order,complete,Sara
+6,gather items,Fluxicon Disco\\Fluxicon Disco,2015/09/27 17:15:00.000,Variant 6,Fluxicon Disco,Variant 6,Mike,Warehouse Employee,gather items,complete,Mike
+6,price order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 17:22:00.000,Variant 6,Fluxicon Disco,Variant 6,Sara,Warehouse Employee,price order complete,complete,Sara
+6,gather items complete,Fluxicon Disco\\Fluxicon Disco,2015/09/27 19:41:00.000,Variant 6,Fluxicon Disco,Variant 6,Mike,Warehouse Employee,gather items complete,complete,Mike
+6,order ready to send,Fluxicon Disco\\Fluxicon Disco,2015/09/27 19:41:00.000,Variant 6,Fluxicon Disco,Variant 6,system,System,order ready to send,complete,system
+6,send order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 10:12:00.000,Variant 6,Fluxicon Disco,Variant 6,Bill,Delivery Employee,send order,complete,Bill
+6,order delivered,Fluxicon Disco\\Fluxicon Disco,2015/09/28 13:01:00.000,Variant 6,Fluxicon Disco,Variant 6,Bill,Delivery Employee,order delivered,complete,Bill
+6,End,Fluxicon Disco\\Fluxicon Disco,2015/09/28 13:01:00.000,Variant 6,Fluxicon Disco,Variant 6,End,System,End,complete,End
+7,register order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 08:57:00.000,Variant 1,Fluxicon Disco,Variant 1,system,System,register order,complete,system
+7,check order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 08:58:00.000,Variant 1,Fluxicon Disco,Variant 1,Sara,Warehouse Employee,check order,complete,Sara
+7,check order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/28 08:58:00.000,Variant 1,Fluxicon Disco,Variant 1,Sara,Warehouse Employee,check order complete,complete,Sara
+7,check availability,Fluxicon Disco\\Fluxicon Disco,2015/09/28 08:59:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,check availability,complete,John
+7,check availability complete,Fluxicon Disco\\Fluxicon Disco,2015/09/28 08:59:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,check availability complete,complete,John
+7,gather items,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:00:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,gather items,complete,John
+7,gather items complete,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:39:00.000,Variant 1,Fluxicon Disco,Variant 1,John,Warehouse Employee,gather items complete,complete,John
+7,price order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:40:00.000,Variant 1,Fluxicon Disco,Variant 1,Mike,Warehouse Employee,price order,complete,Mike
+7,price order complete,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:42:00.000,Variant 1,Fluxicon Disco,Variant 1,Mike,Warehouse Employee,price order complete,complete,Mike
+7,order ready to send,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:42:00.000,Variant 1,Fluxicon Disco,Variant 1,system,System,order ready to send,complete,system
+7,send order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 10:12:00.000,Variant 1,Fluxicon Disco,Variant 1,Bill,Delivery Employee,send order,complete,Bill
+7,order delivered,Fluxicon Disco\\Fluxicon Disco,2015/09/28 11:00:00.000,Variant 1,Fluxicon Disco,Variant 1,Bill,Delivery Employee,order delivered,complete,Bill
+7,End,Fluxicon Disco\\Fluxicon Disco,2015/09/28 11:00:00.000,Variant 1,Fluxicon Disco,Variant 1,End,System,End,complete,End
+8,register order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:12:00.000,Variant 7,Fluxicon Disco,Variant 7,system,System,register order,complete,system
+8,check order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:17:00.000,Variant 7,Fluxicon Disco,Variant 7,John,Warehouse Employee,check order,complete,John
+8,contact customer for order verification,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:18:00.000,Variant 7,Fluxicon Disco,Variant 7,John,Warehouse Employee,contact customer for order verification,complete,John
+8,cancel order,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:49:00.000,Variant 7,Fluxicon Disco,Variant 7,John,Warehouse Employee,cancel order,complete,John
+8,End,Fluxicon Disco\\Fluxicon Disco,2015/09/28 09:49:00.000,Variant 7,Fluxicon Disco,Variant 7,End,System,End,complete,End

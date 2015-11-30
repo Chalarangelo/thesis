@@ -1,0 +1,61 @@
+Case ID,Activity,Resource,Complete Timestamp,Variant,(case) creator,(case) variant,Activity,Activity (Simplified)-activityName,Resource,lifecycle:transition
+9,register order,system,2015/09/28 11:10:00.000,Variant 1,Fluxicon Disco,Variant 1,register order,register order,system,complete
+9,check order,John,2015/09/28 11:14:00.000,Variant 1,Fluxicon Disco,Variant 1,check order,check order,John,complete
+9,check availability,John,2015/09/28 11:18:00.000,Variant 1,Fluxicon Disco,Variant 1,check availability,check availability,John,complete
+9,gather items,Sara,2015/09/28 11:35:00.000,Variant 1,Fluxicon Disco,Variant 1,gather items,gather items,Sara,complete
+9,price order,Sara,2015/09/29 17:17:00.000,Variant 1,Fluxicon Disco,Variant 1,price order,price order,Sara,complete
+9,order ready to send,system,2015/09/29 17:19:00.000,Variant 1,Fluxicon Disco,Variant 1,order ready to send,send order,system,complete
+9,order delivered,Tom,2015/09/29 17:41:00.000,Variant 1,Fluxicon Disco,Variant 1,order delivered,order delivered,Tom,complete
+10,register order,system,2015/09/29 11:28:00.000,Variant 1,Fluxicon Disco,Variant 1,register order,register order,system,complete
+10,check order,John,2015/09/29 11:32:00.000,Variant 1,Fluxicon Disco,Variant 1,check order,check order,John,complete
+10,check availability,Sara,2015/09/29 11:33:00.000,Variant 1,Fluxicon Disco,Variant 1,check availability,check availability,Sara,complete
+10,gather items,Sara,2015/09/29 11:39:00.000,Variant 1,Fluxicon Disco,Variant 1,gather items,gather items,Sara,complete
+10,price order,Mike,2015/09/30 15:01:00.000,Variant 1,Fluxicon Disco,Variant 1,price order,price order,Mike,complete
+10,order ready to send,system,2015/09/30 15:03:00.000,Variant 1,Fluxicon Disco,Variant 1,order ready to send,send order,system,complete
+10,order delivered,Bill,2015/10/01 08:57:00.000,Variant 1,Fluxicon Disco,Variant 1,order delivered,order delivered,Bill,complete
+11,register order,system,2015/09/30 12:40:00.000,Variant 2,Fluxicon Disco,Variant 2,register order,register order,system,complete
+11,check order,John,2015/09/30 12:41:00.000,Variant 2,Fluxicon Disco,Variant 2,check order,check order,John,complete
+11,check availability,Mike,2015/09/30 12:42:00.000,Variant 2,Fluxicon Disco,Variant 2,check availability,check availability,Mike,complete
+11,price order,Mike,2015/09/30 12:42:00.000,Variant 2,Fluxicon Disco,Variant 2,price order,price order,Mike,complete
+11,gather items,John,2015/09/30 12:47:00.000,Variant 2,Fluxicon Disco,Variant 2,gather items,gather items,John,complete
+11,order ready to send,system,2015/09/30 19:22:00.000,Variant 2,Fluxicon Disco,Variant 2,order ready to send,send order,system,complete
+11,order delivered,Bill,2015/10/01 08:49:00.000,Variant 2,Fluxicon Disco,Variant 2,order delivered,order delivered,Bill,complete
+12,register order,system,2015/10/01 10:12:00.000,Variant 2,Fluxicon Disco,Variant 2,register order,register order,system,complete
+12,check order,Sara,2015/10/01 10:13:00.000,Variant 2,Fluxicon Disco,Variant 2,check order,check order,Sara,complete
+12,check availability,Sara,2015/10/01 10:14:00.000,Variant 2,Fluxicon Disco,Variant 2,check availability,check availability,Sara,complete
+12,price order,John,2015/10/01 11:02:00.000,Variant 2,Fluxicon Disco,Variant 2,price order,price order,John,complete
+12,gather items,John,2015/10/01 12:09:00.000,Variant 2,Fluxicon Disco,Variant 2,gather items,gather items,John,complete
+12,order ready to send,system,2015/10/01 13:28:00.000,Variant 2,Fluxicon Disco,Variant 2,order ready to send,send order,system,complete
+12,order delivered,Tom,2015/10/01 18:36:00.000,Variant 2,Fluxicon Disco,Variant 2,order delivered,order delivered,Tom,complete
+13,register order,system,2015/10/01 10:36:00.000,Variant 3,Fluxicon Disco,Variant 3,register order,register order,system,complete
+13,check order,John,2015/10/01 10:37:00.000,Variant 3,Fluxicon Disco,Variant 3,check order,check order,John,complete
+13,check availability,John,2015/10/01 10:42:00.000,Variant 3,Fluxicon Disco,Variant 3,check availability,check availability,John,complete
+13,gather items,John,2015/10/01 11:14:00.000,Variant 3,Fluxicon Disco,Variant 3,gather items,gather items,John,complete
+13,price order,Sara,2015/10/01 11:15:00.000,Variant 3,Fluxicon Disco,Variant 3,price order,price order,Sara,complete
+13,gather items complete,John,2015/10/01 19:48:00.000,Variant 3,Fluxicon Disco,Variant 3,gather items complete,gather items,John,complete
+13,order ready to send,system,2015/10/01 19:48:00.000,Variant 3,Fluxicon Disco,Variant 3,order ready to send,send order,system,complete
+13,order delivered,Bill,2015/10/02 10:44:00.000,Variant 3,Fluxicon Disco,Variant 3,order delivered,order delivered,Bill,complete
+14,register order,system,2015/10/01 11:17:00.000,Variant 4,Fluxicon Disco,Variant 4,register order,register order,system,complete
+14,check order,Sara,2015/10/01 11:18:00.000,Variant 4,Fluxicon Disco,Variant 4,check order,check order,Sara,complete
+14,check availability,Sara,2015/10/01 11:52:00.000,Variant 4,Fluxicon Disco,Variant 4,check availability,check availability,Sara,complete
+14,price order,Sara,2015/10/01 12:04:00.000,Variant 4,Fluxicon Disco,Variant 4,price order,price order,Sara,complete
+14,gather items,Mike,2015/10/01 12:09:00.000,Variant 4,Fluxicon Disco,Variant 4,gather items,gather items,Mike,complete
+14,price order complete,Sara,2015/10/01 13:01:00.000,Variant 4,Fluxicon Disco,Variant 4,price order complete,price order,Sara,complete
+14,order ready to send,system,2015/10/01 13:02:00.000,Variant 4,Fluxicon Disco,Variant 4,order ready to send,send order,system,complete
+14,order delivered,Tom,2015/10/01 17:34:00.000,Variant 4,Fluxicon Disco,Variant 4,order delivered,order delivered,Tom,complete
+15,register order,system,2015/10/01 12:39:00.000,Variant 5,Fluxicon Disco,Variant 5,register order,register order,system,complete
+15,check order,Mike,2015/10/01 12:40:00.000,Variant 5,Fluxicon Disco,Variant 5,check order,check order,Mike,complete
+15,check availability,Sara,2015/10/01 12:43:00.000,Variant 5,Fluxicon Disco,Variant 5,check availability,check availability,Sara,complete
+15,gather items,John,2015/10/01 12:50:00.000,Variant 5,Fluxicon Disco,Variant 5,gather items,gather items,John,complete
+15,price order,John,2015/10/01 12:55:00.000,Variant 5,Fluxicon Disco,Variant 5,price order,price order,John,complete
+15,gather items complete,John,2015/10/01 16:58:00.000,Variant 5,Fluxicon Disco,Variant 5,gather items complete,gather items,John,complete
+15,price order complete,Mike,2015/10/01 17:01:00.000,Variant 5,Fluxicon Disco,Variant 5,price order complete,price order,Mike,complete
+15,order ready to send,system,2015/10/01 17:01:00.000,Variant 5,Fluxicon Disco,Variant 5,order ready to send,send order,system,complete
+15,order delivered,Tom,2015/10/01 19:08:00.000,Variant 5,Fluxicon Disco,Variant 5,order delivered,order delivered,Tom,complete
+16,register order,system,2015/10/01 12:42:00.000,Variant 1,Fluxicon Disco,Variant 1,register order,register order,system,complete
+16,check order,Sara,2015/10/01 15:01:00.000,Variant 1,Fluxicon Disco,Variant 1,check order,check order,Sara,complete
+16,check availability,Sara,2015/10/01 15:06:00.000,Variant 1,Fluxicon Disco,Variant 1,check availability,check availability,Sara,complete
+16,gather items,John,2015/10/01 16:39:00.000,Variant 1,Fluxicon Disco,Variant 1,gather items,gather items,John,complete
+16,price order,Mike,2015/10/02 08:06:00.000,Variant 1,Fluxicon Disco,Variant 1,price order,price order,Mike,complete
+16,order ready to send,system,2015/10/02 08:14:00.000,Variant 1,Fluxicon Disco,Variant 1,order ready to send,send order,system,complete
+16,order delivered,Bill,2015/10/02 12:06:00.000,Variant 1,Fluxicon Disco,Variant 1,order delivered,order delivered,Bill,complete
